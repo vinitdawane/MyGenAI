@@ -13,7 +13,7 @@ st.markdown(
 
 
 
-robo = genai.Client(api_key = "GOOGLE_API_KEY")
+robo = genai.Client(api_key = GOOGLE_API_KEY)
 
 mychat = robo.chats.create(model="gemini-3.1-flash-lite")
 
